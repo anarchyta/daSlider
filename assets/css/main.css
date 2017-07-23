@@ -1,0 +1,21 @@
+img{width:100%}
+header.header{color:#cdbfe3;background-color:#6f5499}
+header.header h1{color:#ffffff}
+header .laptop{position:relative;max-width:600px;max-height:350px;margin:20px auto 0}
+header .laptop:before{content:'';position:absolute;top:0;left:0;bottom:0;right:0;background:transparent url(../img/laptop.png) no-repeat center center / 100%;z-index:2}
+header .laptop .daSlider-container{margin:0 12%;padding:3.5% 0 3.8%}
+@media (min-width:767px) {
+header .laptop{margin-top:0}
+header .text-right-pc{text-align:right}
+}
+section{border-bottom:solid 2px #eeeeee;padding-top:50px;padding-bottom:50px}
+section .ipad{position:relative;max-width:555px;max-height:433px;margin:20px auto 0}
+section .ipad:before{content:'';position:absolute;top:0;left:0;bottom:0;right:0;background:transparent url(../img/ipad.png) no-repeat center center / 100%;z-index:2}
+section .ipad .daSlider-container{margin:0 9%;padding:8% 0 9%}
+@media (min-width:767px) {
+section .ipad{margin-top:0}
+}
+section.two{color: #999999;background-color: #fbfbfb}
+footer.footer{ text-align: center; padding: 4.5em 0 2.5em 0; color: #b0b0b0; background-color: #f7f7f7}
+.mt0{margin-top:0}
+.mb0{margin-bottom:0}
